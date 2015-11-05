@@ -1,4 +1,3 @@
-
 d3.json('data.json', function(error, data) {
     var columns = d3.selectAll('.column')[0];
     var capacity = Math.ceil(data.length / columns.length);
